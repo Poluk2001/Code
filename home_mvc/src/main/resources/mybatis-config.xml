@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--引入properties文件，此后就可以在当前文件中使用${key}的方式访问value-->
+    <properties resource="jdbc.properties"></properties>
+
+    <!--<typeAlias type="com.atguigu.mybatis.pojo.User"></typeAlias>-->
+    <!--以包为单位，将包下所有的类型设置默认的类型别名，即类名且不区分大小写-->
+    <typeAliases>
+        <package name="com.jmi.mvc.pojo"/>
+    </typeAliases>
+
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!--引入映射文件-->
+    <mappers>
+        <package name="com.jmi.mvc.mapper"/>
+    </mappers>
+</configuration>

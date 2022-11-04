@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>登录成功</title>
+</head>
+<body>
+<h1>
+    欢迎登录管理系统！
+</h1>
+<form th:action="@{/user}" method="post">
+    <input type="submit" value="查询所有用户信息">
+</form>
+<form th:action="@{/role}" method="post">
+    <input type="submit" value="查询所有角色信息">
+</form>
+<form th:action="@{/logout}" method="post">
+    <input type="submit" value="退出登录">
+</form>
+</body>
+</html>

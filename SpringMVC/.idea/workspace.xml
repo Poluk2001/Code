@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Spring:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="86bd1a4a-457a-4c0b-8928-b88012afc39c" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="mybatis-config" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2FwR1HVffQbFoJSU1nWm2iW7Qky" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Code/SpringMVC&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.31609195&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;19c0a902475b6582357eb7bd18f61e5e&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Poluk\MyCode\SpringMVC\Spring\src\main\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Poluk\MyCode\SpringMVC\Spring\src\main\webapp" />
+      <recent name="D:\Poluk\MyCode\SpringMVC\Spring\src\main\webapp\WEB-INF" />
+      <recent name="D:\Poluk\MyCode\SpringMVC\Spring\src\main\webapp\templates" />
+      <recent name="D:\Poluk\MyCode\SpringMVC\Spring\src\main\java\com\jmi\controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jmi.Interceptor" />
+      <recent name="com.jmi.mapper" />
+      <recent name="com.jmi.pojo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.68">
+    <configuration name="SqlTest.testSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SqlTest" />
+      <option name="METHOD_NAME" value="testSelect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.68" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.68" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="Spring:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="d2bcdd08-8738-4b2e-beba-dd83d374c72a" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57097" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Spring:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SqlTest.testSelect" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86bd1a4a-457a-4c0b-8928-b88012afc39c" name="Changes" comment="" />
+      <created>1665400942508</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665400942508</updated>
+      <workItem from="1665400943709" duration="19000" />
+      <workItem from="1665400971221" duration="3297000" />
+      <workItem from="1665408655076" duration="5713000" />
+      <workItem from="1665448326360" duration="4364000" />
+      <workItem from="1665499197536" duration="1482000" />
+      <workItem from="1665504233511" duration="185000" />
+      <workItem from="1665540364306" duration="700000" />
+      <workItem from="1665541583850" duration="433000" />
+      <workItem from="1665543935578" duration="1558000" />
+      <workItem from="1665547096479" duration="689000" />
+      <workItem from="1665548515021" duration="2664000" />
+      <workItem from="1665576926716" duration="118000" />
+      <workItem from="1665577248232" duration="125000" />
+      <workItem from="1665577381895" duration="153000" />
+      <workItem from="1665577568898" duration="17000" />
+      <workItem from="1665708989324" duration="649000" />
+      <workItem from="1665709736602" duration="10000" />
+      <workItem from="1665907144339" duration="4686000" />
+      <workItem from="1665966002531" duration="2271000" />
+      <workItem from="1665969949563" duration="939000" />
+      <workItem from="1665972608030" duration="1513000" />
+      <workItem from="1665974544405" duration="347000" />
+      <workItem from="1665976266828" duration="1166000" />
+      <workItem from="1666059390088" duration="463000" />
+      <workItem from="1666059863735" duration="3860000" />
+      <workItem from="1666099742517" duration="62000" />
+      <workItem from="1666143524340" duration="3798000" />
+      <workItem from="1666256278348" duration="164000" />
+      <workItem from="1666420666059" duration="2336000" />
+      <workItem from="1666506231765" duration="267000" />
+      <workItem from="1666506508794" duration="5268000" />
+      <workItem from="1666657474444" duration="3763000" />
+      <workItem from="1666750432534" duration="14000" />
+      <workItem from="1666750464545" duration="747000" />
+      <workItem from="1666853862079" duration="99000" />
+      <workItem from="1666854037151" duration="9000" />
+      <workItem from="1666856659809" duration="2309000" />
+      <workItem from="1666915981864" duration="34000" />
+      <workItem from="1667055471352" duration="478000" />
+      <workItem from="1667055959731" duration="7000" />
+      <workItem from="1667121698606" duration="155000" />
+      <workItem from="1667121861760" duration="71000" />
+      <workItem from="1667121940334" duration="5884000" />
+      <workItem from="1667177701975" duration="723000" />
+      <workItem from="1667178435792" duration="1281000" />
+      <workItem from="1667200828458" duration="1208000" />
+      <workItem from="1667214075385" duration="804000" />
+      <workItem from="1667261575006" duration="2296000" />
+      <workItem from="1667348634270" duration="797000" />
+      <workItem from="1667351690763" duration="10000" />
+      <workItem from="1667351713894" duration="2650000" />
+      <workItem from="1667354995860" duration="392000" />
+      <workItem from="1667357716995" duration="1091000" />
+      <workItem from="1667359190412" duration="287000" />
+      <workItem from="1667359974885" duration="1031000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SpringMVC$Tomcat_9_0_68.ic" NAME="Tomcat 9.0.68 Coverage Results" MODIFIED="1665545416270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
