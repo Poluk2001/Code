@@ -24,7 +24,7 @@
         <td th:text="${user.phone}"></td>
         <td th:text="${user.email}"></td>
     <td>
-        <a href="">删除</a>
+        <a th:href="@{'/user/' + ${user.id}}">修改</a>
     </td>>
 </table>
 </body>

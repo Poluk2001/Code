@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/radio"
+        android:layout_marginBottom="5dp" />
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#616161"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <RadioButton
+            android:id="@+id/radio_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/shouye_selector"
+            android:gravity="center"
+            android:text="首页"
+            android:textColor="@color/text_selector"/>
+
+        <RadioButton
+            android:id="@+id/radio_shopcar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/gouwuche_selector"
+            android:gravity="center"
+            android:text="购物车"
+            android:textColor="@color/text_selector"/>
+
+        <RadioButton
+            android:id="@+id/radio_sort"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/fenlei_selector"
+            android:gravity="center"
+            android:text="分类"
+            android:textColor="@color/text_selector"/>
+
+        <RadioButton
+            android:id="@+id/radio_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/sousuo_selector"
+            android:gravity="center"
+            android:text="搜索"
+            android:textColor="@color/text_selector"/>
+
+        <RadioButton
+            android:id="@+id/radio_me"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/icon_me_nor"
+            android:gravity="center"
+            android:text="我的"
+            android:textColor="@color/text_selector"/>
+
+    </RadioGroup>
+
+
+</RelativeLayout>
+
+
+

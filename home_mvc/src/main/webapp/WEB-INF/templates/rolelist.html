@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>角色列表</title>
+    <link rel="stylesheet" th:href="@{/static/css/index_work.css}">
+</head>
+<body>
+<a th:href="@{/index}">返回首页</a>
+<table>
+    <tr>
+        <th colspan="4">RoleList</th>
+    </tr>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>options</th>
+    </tr>
+    <tr th:each="role : ${roles}">
+        <td th:text="${role.id}"></td>
+        <td th:text="${role.name}"></td>
+        <td th:text="${role.description}"></td>
+    <td>
+        <a th:href="@{'/role/' + ${role.id}}">修改</a>
+    </td>
+</table>
+</body>
+</html>

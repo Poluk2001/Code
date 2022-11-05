@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>更新角色</title>
+    <link rel="stylesheet" th:href="@{/static/css/index_work.css}">
+</head>
+<body>
+<form th:action="@{/roleupdate}" method="post">
+    <input type="hidden" name="_method" value="put">
+    <input type="hidden" name="id" th:value="${role.id}">
+    <table>
+        <tr>
+            <th colspan="2">update Role</th>
+        </tr>
+        <tr>
+            <td>name</td>
+            <td>
+                <input type="text" name="name" th:value="${role.name}">
+            </td>
+        </tr>
+        <tr>
+            <td>description</td>
+            <td>
+                <input type="text" name="description" th:value="${role.description}">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="update">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

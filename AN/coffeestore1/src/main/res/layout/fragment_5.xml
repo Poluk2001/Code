@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.Fragment5"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#16222D">
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="欢迎来到在线咖啡在线系统"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:onClick="ban"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="登录/注册"
+            android:backgroundTint="#c1c1c1"
+            android:textColor="@color/red_500"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tv1"/>
+
+    </RelativeLayout>
+    <ExpandableListView
+        android:id="@+id/ex"
+        android:background="#FFFBDB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl">
+
+
+    </ExpandableListView>
+
+
+
+
+
+</RelativeLayout>
